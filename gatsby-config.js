@@ -13,6 +13,13 @@ module.exports = {
   },
   plugins: [
     // Add gatsby-theme-musician to your site
+    module.exports = {
+  plugins: [
+    {
+      resolve: "gatsby-theme-musician",
+    },
+  ],
+}
     {
       resolve: "gatsby-theme-musician",
       // More info about the theme options:
